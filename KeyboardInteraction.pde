@@ -2,7 +2,7 @@
 
 void keyPressed() {
   if ( key == 'c' || key == 'C' ) {
-    scene.saveConfig("config");
+    scene.saveConfig("data/config.json");
   }
   if ( key == 'r' || key == 'R' ) {
     grid.subtractCapsule( capsule );

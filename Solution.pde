@@ -21,16 +21,11 @@ Capsule capsule;
 Scene scene;
 Grid grid;
 
-
-//void settings() {
-  //fullScreen( P3D );
-//}
-
 void setup() {
   size( 1000, 800, P3D );
-  textFont( loadFont( "FreeSans") );
   setupScene();
   init();
+  grid.subtractCapsule( capsule );
 }
 
 void init() {

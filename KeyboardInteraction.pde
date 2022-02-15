@@ -2,7 +2,7 @@
 
 void keyPressed() {
   if ( key == 'c' || key == 'C' ) {
-    scene.saveConfig("data/config.json");
+    isInContinuousMode = !isInContinuousMode;
   }
   if ( key == 'r' || key == 'R' ) {
     grid.subtractCapsule( capsule );
@@ -13,7 +13,7 @@ void keyPressed() {
   if ( key == 'v' || key == 'V' ) {
     grid.volumeVisible = !grid.volumeVisible;
   }
-  if ( key == 'i' || key == 'I' ) {
+  if ( key == 't' || key == 'T' ) {
     init();
   }
 }

@@ -23,3 +23,9 @@ void mouseWheel( MouseEvent event ) {
   else
     scene.scaleEye( event.getCount() * 20 );
 }
+
+void mouseReleased() {
+  if ( isInContinuousMode ) {
+    grid.subtractCapsule( capsule );
+  }
+}

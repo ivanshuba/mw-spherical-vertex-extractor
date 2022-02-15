@@ -15,14 +15,20 @@ final float DEFAULT_RADIUS = 30;
 final PVector DEFAULT_START_POINT = new PVector( 0, 0, 50 );
 final PVector DEFAULT_END_POINT = new PVector( 150, 150, 50 );
 
+boolean isInContinuousMode = true;
 
 Capsule capsule;
 Scene scene;
 Grid grid;
 
+
+//void settings() {
+  //fullScreen( P3D );
+//}
+
 void setup() {
-  size( 800, 800, P3D );
-  textFont( loadFont( "FreeSans-13.vlw") );
+  size( 1000, 800, P3D );
+  textFont( loadFont( "FreeSans") );
   setupScene();
   init();
 }

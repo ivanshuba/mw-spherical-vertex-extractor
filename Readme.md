@@ -1,4 +1,4 @@
-## ModuleWorks Test Task Solution: Use Sphere Movement To Extract Vertices From Grid
+# Test task solution implementation based on Processing framework: Utilize descrete virtual movement of sphere to remove vertices grom grid
 
 ![Solution_Illustration](https://user-images.githubusercontent.com/24988714/154112795-ebc2f38f-fbc0-4c0d-8611-8f72f0c16f66.gif)
 

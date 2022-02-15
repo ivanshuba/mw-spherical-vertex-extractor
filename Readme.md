@@ -3,7 +3,11 @@
 ![Solution_](https://user-images.githubusercontent.com/24988714/154082784-316b4f69-a9a9-4444-ac25-3cc4490f5fd0.gif)
 
 
-## To run the provided code on your machine, please apply the following steps:
+## To run the solution application
+
+Use the `zip` archives from the [`releases`](https://github.com/ivanshuba/mw-spherical-vertex-extractor/releases/tag/0.0.1) page on the github. Simply extract the content and double-click the `Solution.exe` executable file.
+
+## To play with the provided code on your machine, please apply the following steps:
 
 1. Download [Processing](https://processing.org/) *IDE* from the [Downloads section](https://processing.org/download) of the official website ( _currently, the latest version is_ __*4.0b6*__ )
 2. Unpack the downloaded archive into any folder on your machine

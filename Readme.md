@@ -32,10 +32,13 @@ Use the `zip` archives from the [`releases`](https://github.com/ivanshuba/mw-sph
 ## Use keyboard and mouse to navigate in world space and interact with model
 
 ### Interacting with the `Grid`:
+By default, a "contiuous" mode is enabled. That means that every time mouse button is released, the 'skin' will be automatically updated and all vertices contained in it will be removed. 
+
+- to disable/enable continuouse mode, press **'C'** keyboard button
 - to __*REMOVE*__ the vertices contained in the `Capsule` volume from the `Grid`, press **`R`** keyboard button
 - to __*(re)INITIALIZE*__ the vertices in `Grid`, press **`I`** keyboard button
 - to _show/hide_ those vertices represenging the `Grid` __*VOLUME*__, press **`V`** keyboard button
-- to _show/hide- those vertices representing the `Grid` __*SKIN*__, press **`S`** keyboard button
+- to _show/hide_ those vertices representing the `Grid` __*SKIN*__, press **`S`** keyboard button
 
 ### Interacting with the `Capsule`:
 - to move around any of `Capsule` **spheres**, click and drag them with the _RIGHT_MOUSE_BUTTON_

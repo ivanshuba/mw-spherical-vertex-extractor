@@ -1,6 +1,6 @@
 ## ModuleWorks Test Task Solution: Use Sphere Movement To Extract Vertices From Grid
 
-![Solution_](https://user-images.githubusercontent.com/24988714/154082784-316b4f69-a9a9-4444-ac25-3cc4490f5fd0.gif)
+![Solution_Illustration](https://user-images.githubusercontent.com/24988714/154112795-ebc2f38f-fbc0-4c0d-8611-8f72f0c16f66.gif)
 
 
 ## To run the solution application

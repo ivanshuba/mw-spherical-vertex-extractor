@@ -1,23 +1,19 @@
 
 
 void keyPressed() {
-  if ( key == 'c' ) {
+  if ( key == 'c' || key == 'C' ) {
     scene.saveConfig("config");
   }
-  if ( key == 't' ) {
+  if ( key == 'r' || key == 'R' ) {
     grid.subtractCapsule( capsule );
   }
-  if ( key == 's' ) {
+  if ( key == 's' || key == 'S' ) {
     grid.skinVisible = !grid.skinVisible;
   }
-  if ( key == 'v' ) {
+  if ( key == 'v' || key == 'V' ) {
     grid.volumeVisible = !grid.volumeVisible;
   }
-  if ( key == 'i' ) {
-    init();
-  }
-  if ( key == 'n' ) {
-    
+  if ( key == 'i' || key == 'I' ) {
     init();
   }
 }

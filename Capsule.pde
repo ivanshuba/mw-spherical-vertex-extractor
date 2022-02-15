@@ -40,7 +40,7 @@ class Capsule {
   }
 
   boolean isInside( PVector pt ) {
-    return sqRadius < distPtSeg( sp, ep, pt );
+    return radius < distPtSeg( sp, ep, pt );
   }
 
 }

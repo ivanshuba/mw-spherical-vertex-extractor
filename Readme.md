@@ -37,5 +37,6 @@
 - to move around any of `Capsule` **spheres**, click and drag them with the _RIGHT_MOUSE_BUTTON_
 
 ### Interacting with the screen `Canvas`:
-- to  __*PAN*__ the model in world space, you can click and drag on an empty space with the _RIGHT_MOUSE_BUTTON
-- to __*ROTATE*__ the model in world space, you clck and drag on an empty space with the _LEFT_MOUSE_BUTTON_, 
+- to __*ZOOM*__ in/out the model in the world space, you can ___rotate___ the _MOUSE_WHEEL_
+- to  __*PAN*__ the model in world space, you can ___click and drag___ on an empty space with the _RIGHT_MOUSE_BUTTON
+- to __*ROTATE*__ the model in world space, you ___clck and drag___ on an empty space with the _LEFT_MOUSE_BUTTON_, 

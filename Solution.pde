@@ -22,6 +22,7 @@ Grid grid;
 
 void setup() {
   size( 800, 800, P3D );
+  
   setupScene();
   init();
 }
@@ -37,6 +38,7 @@ void draw() {
   scene.render();
   grid.draw();
   drawLine();
+  drawInfo();
 }
 
 void drawLine() {

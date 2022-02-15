@@ -22,7 +22,7 @@ Grid grid;
 
 void setup() {
   size( 800, 800, P3D );
-  
+  textFont( loadFont( "FreeSans-13.vlw") );
   setupScene();
   init();
 }
@@ -34,7 +34,7 @@ void init() {
 }
 
 void draw() {
-  background( 220 );
+  background( 230 );
   scene.render();
   grid.draw();
   drawLine();
